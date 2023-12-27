@@ -1,4 +1,25 @@
-basic.forever(function on_forever() {
+basic.forever(function () {
+    basic.showLeds(`
+        . # . # .
+        # . # . #
+        # . . . #
+        . # . # .
+        . . # . .
+        `)
+    basic.showLeds(`
+        . # . # .
+        # . # . #
+        # . . . #
+        . # . # .
+        . . # . .
+        `)
+    basic.showLeds(`
+        . # . # .
+        # . # . #
+        # . . . #
+        . # . # .
+        . . # . .
+        `)
     basic.showLeds(`
         . # . # .
         # . # . #
@@ -21,16 +42,9 @@ basic.forever(function on_forever() {
         # # # # #
         `)
     basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        # # # # #
         # . . . .
-        # # # # #
+        # . . . .
+        # . . . .
         # . . . .
         # # # # #
         `)
@@ -42,10 +56,38 @@ basic.forever(function on_forever() {
         . . . . .
         `)
     basic.showLeds(`
+        # # # # #
+        # # . . .
+        # # # # #
+        # # . . .
+        # # # # #
+        `)
+    basic.showLeds(`
+        # # # # #
+        # # . . .
+        # # # # #
+        # # . . .
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
         . # # # .
+        # # . # #
         # . . . #
+        # # . # #
+        . # # # .
+        `)
+    basic.showLeds(`
+        . # # # .
+        # # . # #
         # . . . #
-        # . . . #
+        # # . # #
         . # # # .
         `)
     basic.showLeds(`
@@ -56,11 +98,18 @@ basic.forever(function on_forever() {
         . . . . .
         `)
     basic.showLeds(`
-        # . . . #
+        # # . . #
         # # . . #
         # . # . #
         # . . # #
-        # . . . #
+        # . . # #
+        `)
+    basic.showLeds(`
+        # # . . #
+        # # . . #
+        # . # . #
+        # . . # #
+        # . . # #
         `)
     basic.showLeds(`
         . . . . .
